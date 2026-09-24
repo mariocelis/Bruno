@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: https://ocgywowptsvhdbmmfoif.supabase.co/rest/v1/EMPLOYEES?EMPLOYEE_ID=eq.1
+  url: https://ocgywowptsvhdbmmfoif.supabase.co/rest/v1/EMPLOYEES?EMPLOYEE_ID=eq.3
   headers:
     - name: apikey
       value: sb_publishable_o6OGXf0Qv0ySGknBVgI9eg_rzNnZi_Z
@@ -13,7 +13,7 @@ http:
       value: application/json
   params:
     - name: EMPLOYEE_ID
-      value: eq.1
+      value: eq.3
       type: query
   auth: inherit
 

@@ -1,0 +1,34 @@
+info:
+  name: InsertEmployee
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: https://ocgywowptsvhdbmmfoif.supabase.co/rest/v1/EMPLOYEES
+  headers:
+    - name: apikey
+      value: sb_publishable_o6OGXf0Qv0ySGknBVgI9eg_rzNnZi_Z
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: "{\r
+
+      \    \"NAME\": \"OSCAR\",\r
+
+      \    \"EMAIL\": \"oscar@hotmail.com\",\r
+
+      \    \"SALARY\": 1548.25,\r
+
+      \    \"JOB\": \"JARDINERO\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

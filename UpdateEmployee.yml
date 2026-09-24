@@ -1,0 +1,28 @@
+info:
+  name: UpdateEmployee
+  type: http
+  seq: 4
+
+http:
+  method: PATCH
+  url: https://ocgywowptsvhdbmmfoif.supabase.co/rest/v1/EMPLOYEES?EMPLOYEE_ID=eq.3
+  headers:
+    - name: apikey
+      value: sb_publishable_o6OGXf0Qv0ySGknBVgI9eg_rzNnZi_Z
+    - name: Content-Type
+      value: application/json
+  params:
+    - name: EMPLOYEE_ID
+      value: eq.3
+      type: query
+  body:
+    type: json
+    data: "{\r\n    \"JOB\": \"PLOMERO\"\r\n}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

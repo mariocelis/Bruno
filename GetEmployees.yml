@@ -1,0 +1,21 @@
+info:
+  name: GetEmployees
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://ocgywowptsvhdbmmfoif.supabase.co/rest/v1/EMPLOYEES
+  headers:
+    - name: apikey
+      value: sb_publishable_o6OGXf0Qv0ySGknBVgI9eg_rzNnZi_Z
+    - name: Content-Type
+      value: application/json
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
